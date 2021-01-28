@@ -30,13 +30,13 @@ class Dog:
 
 
 if __name__ == "__main__":
-    x = MyClass()
+    x = MyClass('name')
     x.i = 13579
     print(MyClass.f(x)) # x.f() = MyClass.f(x)
     print(x.i)
     print(type(x.f))
     print(type(x.f()))
-    y = MyClass()
+    y = MyClass('age')
     print(y.i)
     z = MyClasss()
     z.data.append('l')
