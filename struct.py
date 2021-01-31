@@ -87,3 +87,6 @@ sine_table = {x : sin(x*pi/180) for x in range(0, 91)}
 data = 'golf'
 l = list(data[i] for i in range(len(data)-1, -1, -1))
 print(l)
+
+if __name__ == "__main__"
+    pass
