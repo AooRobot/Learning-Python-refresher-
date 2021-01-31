@@ -88,5 +88,5 @@ data = 'golf'
 l = list(data[i] for i in range(len(data)-1, -1, -1))
 print(l)
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     pass
